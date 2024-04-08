@@ -1,0 +1,79 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    color: 191, 165, 216; 
+    margin: auto;
+}
+
+h1 {
+    color: rgb(191, 165, 216);
+    background-color:#060318c6
+}
+
+p {
+    color: rgb(166, 143, 136)
+}
+
+body {
+    background-image: url("https://live.staticflickr.com/65535/53620136077_2c9c9a115a_b.jpg");
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+.bottomwords {
+    position:absolute;
+    bottom:0;
+    color: lightgrey;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.photo-size {
+    width: 255px;
+}
+
+.carousel-item {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+header {
+    overflow: hidden;
+    background-color: #060318c6;
+    padding: 25px;
+}
+    
+  
+
+.mycarousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.controls-img {
+    background-color: rgb(106, 137, 229);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+  
+ 
+  
